@@ -13,6 +13,7 @@
 		90885C1C1F0D9EB80098F4EF /* AsambleaRum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90885C1A1F0D9EB80098F4EF /* AsambleaRum.xcdatamodeld */; };
 		90885C1E1F0D9EB80098F4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90885C1D1F0D9EB80098F4EF /* Assets.xcassets */; };
 		90885C211F0D9EB80098F4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90885C1F1F0D9EB80098F4EF /* LaunchScreen.storyboard */; };
+		90885C291F0DA1550098F4EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90885C281F0DA1550098F4EF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		90885C1D1F0D9EB80098F4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90885C201F0D9EB80098F4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90885C221F0D9EB80098F4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90885C281F0DA1550098F4EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				90885C1D1F0D9EB80098F4EF /* Assets.xcassets */,
 				90885C1F1F0D9EB80098F4EF /* LaunchScreen.storyboard */,
 				90885C221F0D9EB80098F4EF /* Info.plist */,
+				90885C281F0DA1550098F4EF /* GoogleService-Info.plist */,
 				90885C1A1F0D9EB80098F4EF /* AsambleaRum.xcdatamodeld */,
 			);
 			path = AsambleaRum;
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90885C291F0DA1550098F4EF /* GoogleService-Info.plist in Resources */,
 				90885C211F0D9EB80098F4EF /* LaunchScreen.storyboard in Resources */,
 				90885C1E1F0D9EB80098F4EF /* Assets.xcassets in Resources */,
 				90885C191F0D9EB80098F4EF /* Main.storyboard in Resources */,
