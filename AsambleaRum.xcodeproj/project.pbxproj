@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DC94D3E45F69A4F676C22C5 /* Pods_AsambleaRum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10AB1366BF8C8D2D9514C30 /* Pods_AsambleaRum.framework */; };
 		90885C141F0D9EB80098F4EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90885C131F0D9EB80098F4EF /* AppDelegate.swift */; };
-		90885C161F0D9EB80098F4EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90885C151F0D9EB80098F4EF /* ViewController.swift */; };
+		90885C161F0D9EB80098F4EF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90885C151F0D9EB80098F4EF /* LoginController.swift */; };
 		90885C191F0D9EB80098F4EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90885C171F0D9EB80098F4EF /* Main.storyboard */; };
 		90885C1C1F0D9EB80098F4EF /* AsambleaRum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90885C1A1F0D9EB80098F4EF /* AsambleaRum.xcdatamodeld */; };
 		90885C1E1F0D9EB80098F4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90885C1D1F0D9EB80098F4EF /* Assets.xcassets */; };
 		90885C211F0D9EB80098F4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90885C1F1F0D9EB80098F4EF /* LaunchScreen.storyboard */; };
 		90885C291F0DA1550098F4EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90885C281F0DA1550098F4EF /* GoogleService-Info.plist */; };
+		90885C331F0DAA3F0098F4EF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90885C321F0DAA3F0098F4EF /* Login.storyboard */; };
+		90885C351F0DAEA20098F4EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90885C341F0DAEA20098F4EF /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0542B85398BFC31FE06179 /* Pods-AsambleaRum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsambleaRum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsambleaRum/Pods-AsambleaRum.debug.xcconfig"; sourceTree = "<group>"; };
 		90885C101F0D9EB80098F4EF /* AsambleaRum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsambleaRum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90885C131F0D9EB80098F4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90885C151F0D9EB80098F4EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90885C151F0D9EB80098F4EF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		90885C181F0D9EB80098F4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90885C1B1F0D9EB80098F4EF /* AsambleaRum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AsambleaRum.xcdatamodel; sourceTree = "<group>"; };
 		90885C1D1F0D9EB80098F4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90885C201F0D9EB80098F4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90885C221F0D9EB80098F4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90885C281F0DA1550098F4EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90885C321F0DAA3F0098F4EF /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		90885C341F0DAEA20098F4EF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DB9363C9E343D0E8ECA2D0C3 /* Pods-AsambleaRum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsambleaRum.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsambleaRum/Pods-AsambleaRum.release.xcconfig"; sourceTree = "<group>"; };
+		E10AB1366BF8C8D2D9514C30 /* Pods_AsambleaRum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsambleaRum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC94D3E45F69A4F676C22C5 /* Pods_AsambleaRum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,8 @@
 			children = (
 				90885C121F0D9EB80098F4EF /* AsambleaRum */,
 				90885C111F0D9EB80098F4EF /* Products */,
+				F73B06C3712CBE4D7D9161BD /* Pods */,
+				F89A11A359C8901EB3894F47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +69,15 @@
 		90885C121F0D9EB80098F4EF /* AsambleaRum */ = {
 			isa = PBXGroup;
 			children = (
+				90885C311F0DA90B0098F4EF /* Extensions */,
+				90885C301F0DA9020098F4EF /* Supporting */,
+				90885C2F1F0DA8FB0098F4EF /* Helpers */,
+				90885C2E1F0DA8F30098F4EF /* Services */,
+				90885C2D1F0DA8E70098F4EF /* Controller */,
+				90885C2C1F0DA8E30098F4EF /* View */,
+				90885C2B1F0DA8DB0098F4EF /* Model */,
+				90885C2A1F0DA8D30098F4EF /* Storyboards */,
 				90885C131F0D9EB80098F4EF /* AppDelegate.swift */,
-				90885C151F0D9EB80098F4EF /* ViewController.swift */,
 				90885C171F0D9EB80098F4EF /* Main.storyboard */,
 				90885C1D1F0D9EB80098F4EF /* Assets.xcassets */,
 				90885C1F1F0D9EB80098F4EF /* LaunchScreen.storyboard */,
@@ -70,6 +88,82 @@
 			path = AsambleaRum;
 			sourceTree = "<group>";
 		};
+		90885C2A1F0DA8D30098F4EF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				90885C321F0DAA3F0098F4EF /* Login.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		90885C2B1F0DA8DB0098F4EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90885C341F0DAEA20098F4EF /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90885C2C1F0DA8E30098F4EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		90885C2D1F0DA8E70098F4EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90885C151F0D9EB80098F4EF /* LoginController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		90885C2E1F0DA8F30098F4EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		90885C2F1F0DA8FB0098F4EF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		90885C301F0DA9020098F4EF /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		90885C311F0DA90B0098F4EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F73B06C3712CBE4D7D9161BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0542B85398BFC31FE06179 /* Pods-AsambleaRum.debug.xcconfig */,
+				DB9363C9E343D0E8ECA2D0C3 /* Pods-AsambleaRum.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F89A11A359C8901EB3894F47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E10AB1366BF8C8D2D9514C30 /* Pods_AsambleaRum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90885C251F0D9EB80098F4EF /* Build configuration list for PBXNativeTarget "AsambleaRum" */;
 			buildPhases = (
+				72C921ECA5750D65D9EC3864 /* [CP] Check Pods Manifest.lock */,
 				90885C0C1F0D9EB80098F4EF /* Sources */,
 				90885C0D1F0D9EB80098F4EF /* Frameworks */,
 				90885C0E1F0D9EB80098F4EF /* Resources */,
+				77E99DD2682F9C891ED29930 /* [CP] Embed Pods Frameworks */,
+				D0D9ADCE2FCFC9622511CDC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,19 +230,69 @@
 				90885C291F0DA1550098F4EF /* GoogleService-Info.plist in Resources */,
 				90885C211F0D9EB80098F4EF /* LaunchScreen.storyboard in Resources */,
 				90885C1E1F0D9EB80098F4EF /* Assets.xcassets in Resources */,
+				90885C331F0DAA3F0098F4EF /* Login.storyboard in Resources */,
 				90885C191F0D9EB80098F4EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72C921ECA5750D65D9EC3864 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77E99DD2682F9C891ED29930 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsambleaRum/Pods-AsambleaRum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D9ADCE2FCFC9622511CDC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsambleaRum/Pods-AsambleaRum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90885C0C1F0D9EB80098F4EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90885C351F0DAEA20098F4EF /* User.swift in Sources */,
 				90885C1C1F0D9EB80098F4EF /* AsambleaRum.xcdatamodeld in Sources */,
-				90885C161F0D9EB80098F4EF /* ViewController.swift in Sources */,
+				90885C161F0D9EB80098F4EF /* LoginController.swift in Sources */,
 				90885C141F0D9EB80098F4EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +416,7 @@
 		};
 		90885C261F0D9EB80098F4EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0542B85398BFC31FE06179 /* Pods-AsambleaRum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EP435FJL2Z;
@@ -282,6 +430,7 @@
 		};
 		90885C271F0D9EB80098F4EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9363C9E343D0E8ECA2D0C3 /* Pods-AsambleaRum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EP435FJL2Z;
@@ -312,6 +461,7 @@
 				90885C271F0D9EB80098F4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
