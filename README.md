@@ -37,49 +37,63 @@ Admin users will be able to see the questions and vote as well as to post them
 ### Technical
 
 #### Screens
-* [list the different screens used in the app]
+* Login/Register
+* General Users
+   * Questions
+   * Voting
+   * Current Question Counter
+* Admin
+   * Questions
+   * Add question
+   * Current Question Counter
 
 #### External services
-* [list which APIs or external services will your app use?]
+* Firebase
 
 #### Views, View Controllers, and other Classes
 * Views
-  * [list all views you will need]
+  * General Users
+     * Questions
+     * Voting
+     * Current Question Counter
+  * Admin
+     * Questions
+     * Add question
+     * Current Question Counter
 * View Controllers
-  * [list all view controllers you will need]
+  * General Users
+   * Questions
+   * Voting
+   * Current Question Counter
+  * Admin
+   * Questions
+   * Add question
+   * Current Question Counter
 * Other Classes
   * [list any other classes you will need]
 
 #### Data models
-* [list all Parse data models your app will need]
+* User
+* General
+* Admin
 
 [Back to top ^](#)
 
 ---
 
 ### MVP Milestones
-[The overall milestones of first usable build, core features, and polish are just suggestions, plan to finish earlier if possible. The last 20% of work tends to take about as much time as the first 80% so do not slack off on your milestones!]
+ Have a voting system ready, even if it's without registration
 
-#### Week 1
+#### Day 1
 _planing your app_
-* [goals for the week]
+* Create app flow with pen and paper
+* start login functionality
 
-#### Week 2
+#### Day 2
 _finishing a usable build_
-* [goals for the week, should be finishing a usable app]
+* have database connected and voting working
 
-#### Week 3
-* [goals for the week]
-
-#### Week 4
-* [goals for the week, should be finishing all core features]
-
-#### Week 5
-_starting the polish_
-* [goals for the week]
-
-#### Week 6
-_submitting to the App Store_
-* [goals for the week, should be finishing the polish -- demo day on Saturday!]
+#### Day 3
+* final details
 
 [Back to top ^](#)
